@@ -1,0 +1,1 @@
+export const BaseUrl:string = "https://theseus-staging.lithium.ventures/api/v1/analytics/tech-test/"
