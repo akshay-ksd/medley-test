@@ -32,3 +32,4 @@ This project is a front-end application built with Next.js and TypeScript, adher
    npm install
    npm run dev
    Access at http://localhost:3000.
+
