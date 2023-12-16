@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Name
 
-## Getting Started
+Tech Test - Next.js TypeScript Application with Tailwind CSS
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a front-end application built with Next.js and TypeScript, adhering closely to Figma specifications. Tailwind CSS is employed for styling, ensuring a modern and responsive design. The application integrates with an existing API for payouts.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Approach
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Tech Stack:**
+  - Next.js, TypeScript, Tailwind CSS.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Design:**
+  - Adhered closely to Figma designs, incorporating adjustments, such as adding a username column.
 
-## Learn More
+- **Functionality:**
+  - Implemented search using the Search Endpoint.
+  - Integrated pagination for smooth navigation through payouts.
 
-To learn more about Next.js, take a look at the following resources:
+- **Optimizations:**
+  - Utilized Tailwind CSS for responsive and modern styling.
+  - Optimized search functionality for a seamless user experience.
+  - Tweaked pagination for enhanced navigation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone and Install:**
+   ```bash
+   git clone https://github.com/akshay-ksd/medley-test.git
+   cd medley-test
+   npm install
+   npm run dev
+   Access at http://localhost:3000.
